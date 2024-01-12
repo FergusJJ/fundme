@@ -1,0 +1,16 @@
+[package]
+name = "fund-me"
+version = "1.0.0"
+authors = []
+
+[addresses]
+fund_me="8ea41b701444a79634ca4df3c414474f5241af3e94466139bfc9204d972caed1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
